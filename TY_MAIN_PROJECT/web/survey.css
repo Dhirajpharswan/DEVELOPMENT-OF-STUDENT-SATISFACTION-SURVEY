@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+
+.main-content {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.header {
+    background-color: #ffc107;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rating-scale {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.rating-scale span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.rating-scale .strongly-agree {
+    background-color: #4caf50;
+}
+
+.rating-scale .agree {
+    background-color: #8bc34a;
+}
+
+.rating-scale .neutral {
+    background-color: #ffeb3b;
+    color: black;
+}
+
+.rating-scale .disagree {
+    background-color: #ff9800;
+}
+
+.rating-scale .strongly-disagree {
+    background-color: #f44336;
+}
+
+.feedback-form {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-form label {
+    font-weight: bold;
+}
+
+.feedback-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.feedback-form h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.feedback-form p {
+    margin-bottom: 10px;
+}
+
+.rating-options {
+    display: flex;
+    gap: 10px;
+}
+
+.rating-options label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #5e42a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #7649cf;
+}
